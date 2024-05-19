@@ -1,0 +1,185 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #0d0f1e; /* Dark background color */
+    color: #ffffff; /* White text color */
+    line-height: 1.6;
+    overflow-x: hidden; /* Hide horizontal overflow */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+}
+
+.logo-container {
+    flex-grow: 1;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #1abc9c; /* Turquoise color */
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(26, 188, 156, 0.3); /* Soft shadow */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-toggle-label {
+    cursor: pointer;
+    font-size: 24px;
+    color: #ffffff;
+    display: none; /* Hide by default for larger screens */
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #1abc9c;
+}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); /* Starry background image */
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.project-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.contact-icons {
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    color: #ffffff; /* Icon color */
+    font-size: 24px; /* Icon size */
+    margin-right: 20px; /* Spacing between icons */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.contact-icons a:hover {
+    color: #1abc9c; /* Hover color */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+/* SECTION 2 (SKILL) */
+#section-skill{
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.skill h2{
+    text-align: center;
+}
+
+.skill-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.skill-set img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.skill-quote1 q{
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.skill-quote1 p{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+
+.skill-quote2 q{
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.skill-quote2 p{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
